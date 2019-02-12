@@ -1,0 +1,13 @@
+1. End of Sentence Detection
+own the data already have label: the sign: '.' whether ends the sentence
+
+feature engineering:
+each training data sample is a sentence, and extracting the previous and after 3 words surronding context of this sentence
+extracting the number of the words  between '.' and the reliable sentence delimiter both right and left(previous and after)
+extracting the number of spaces 
+
+goal: need to predict whether '.' is the sentence delimiter(end of sentence: EOS(label))
+
+auxiliary: build up the wordlists of abbreviation, title, special nouns and terms, since '.' is used in the delimiter of these words.
+
+model
