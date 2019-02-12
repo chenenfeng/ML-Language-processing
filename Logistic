@@ -10,4 +10,6 @@ goal: need to predict whether '.' is the sentence delimiter(end of sentence: EOS
 
 auxiliary: build up the wordlists of abbreviation, title, special nouns and terms, since '.' is used in the delimiter of these words.
 
-model
+model:
+decisiontree
+lasso
