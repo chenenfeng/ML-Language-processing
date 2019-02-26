@@ -1,0 +1,7 @@
+1. Provide a fast, compact index into the database (of documents or references)
+Index options: Doc Number, Page number in Doc, Actual word offset
+
+Why name Boolean IR?
+foo AND bar -> join
+foo OR bar -> Union   possible search foo W/3 bar
+
